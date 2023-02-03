@@ -1,0 +1,64 @@
+//the right column with supporting data points: skills, achievements
+
+.sub {
+
+    padding-bottom: 3rem;
+
+    section {
+        margin-top: 1rem;
+    }
+
+    ul {
+        //padding-left:1rem;
+        padding: 0;
+        margin: 1rem 0 0 0;
+        list-style-type: none;
+        font-weight: 500
+    }
+
+    li+li{
+        margin-top: 0.275rem;
+    }
+
+    .details {
+        margin-top: 0.275rem;
+        color: $grayishBlue;
+
+        a{
+            color: $grayishBlue;
+            text-decoration: underline;
+
+            &:hover{
+                color: $darkBlue;
+            }
+
+            &:visited{
+                color: $grayishBlue;
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .achievements__list
+    {
+        li+li{
+            margin-top: 1rem;
+        }
+
+        i{
+            //icons
+            color: $grayishBlue;
+            margin-right: 0.5rem;
+            transform: scale(1);
+            opacity: 0.5;
+        }
+    }
+
+    .languages__list
+    {
+        li+li{
+            margin-top: 1rem;
+        }
+    }
+
+}
